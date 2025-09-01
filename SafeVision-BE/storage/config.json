@@ -1,0 +1,15 @@
+{
+  "pixel_to_meter": 0.01,
+  "sample_fps": 5,
+  "cooldown": 30,
+  "confidence_threshold": 0.3,
+  "tracking_buffer": 10,
+  "min_violation_interval": 15,
+  "camera_height": 3.0,
+  "camera_angle": 15,
+  "focal_length": 1000,
+  "image_height": 1080,
+  "ground_plane_y": 800,
+  "max_detection_distance": 20.0,
+  "min_detection_distance": 1.0
+}

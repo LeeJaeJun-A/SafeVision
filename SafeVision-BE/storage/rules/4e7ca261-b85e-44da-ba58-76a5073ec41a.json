@@ -1,0 +1,38 @@
+{
+  "id": "4e7ca261-b85e-44da-ba58-76a5073ec41a",
+  "name": "밀집도 위반",
+  "type": "crowd_in_zone",
+  "enabled": false,
+  "severity": "medium",
+  "description": "특정 구역에 지정된 최대 인원 수를 초과하여 밀집하는 경우",
+  "params": {
+    "zone": {
+      "id": "zone_1",
+      "name": "작업 구역 A",
+      "polygon": [
+        [
+          100,
+          100
+        ],
+        [
+          300,
+          100
+        ],
+        [
+          300,
+          300
+        ],
+        [
+          100,
+          300
+        ]
+      ],
+      "danger_level": "high"
+    },
+    "max_count": 3,
+    "duration": 5,
+    "labels": [
+      "person"
+    ]
+  }
+}

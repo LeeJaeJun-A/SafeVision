@@ -1,0 +1,38 @@
+{
+  "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+  "name": "제한 구역 진입",
+  "type": "restricted_area",
+  "enabled": false,
+  "severity": "high",
+  "description": "사람이나 차량이 제한 구역에 진입하는 경우",
+  "params": {
+    "zone": {
+      "id": "zone_2",
+      "name": "제한 구역 B",
+      "polygon": [
+        [
+          400,
+          100
+        ],
+        [
+          600,
+          100
+        ],
+        [
+          600,
+          300
+        ],
+        [
+          400,
+          300
+        ]
+      ],
+      "danger_level": "medium"
+    },
+    "labels": [
+      "person",
+      "forklift",
+      "car"
+    ]
+  }
+}

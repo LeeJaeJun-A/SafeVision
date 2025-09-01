@@ -1,0 +1,15 @@
+{
+  "id": "9785b827-afe9-4d2f-a2ad-5274f26706f3",
+  "name": "사고 다발 발생 지역 과속",
+  "type": "speed_over",
+  "enabled": true,
+  "severity": "medium",
+  "description": "현 CCTV 영상에서 시속 30km/s로 달리는 이동수단 종류들에 대해서 알람",
+  "params": {
+    "max_speed": 5.0,
+    "labels": [
+      "car",
+      "truck"
+    ]
+  }
+}

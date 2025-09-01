@@ -1,0 +1,17 @@
+{
+  "id": "909775e0-1e02-4f05-b0de-8915eb6632ba",
+  "name": "과속",
+  "type": "speed_over",
+  "enabled": false,
+  "severity": "high",
+  "description": "차량이나 지게차의 속도가 지정된 최대 속도를 초과하는 경우",
+  "params": {
+    "max_speed": 2.0,
+    "labels": [
+      "forklift",
+      "car",
+      "truck",
+      "bus"
+    ]
+  }
+}

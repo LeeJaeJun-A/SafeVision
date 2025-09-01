@@ -1,0 +1,29 @@
+{
+  "id": "f44cf9cc-36e3-42c6-b1c8-a3894f212898",
+  "name": "안전선 침범",
+  "type": "line_cross",
+  "enabled": false,
+  "severity": "critical",
+  "description": "사람이나 차량이 지정된 안전선을 침범하는 경우",
+  "params": {
+    "line": {
+      "id": "line_1",
+      "name": "접근 금지선",
+      "points": [
+        [
+          50,
+          200
+        ],
+        [
+          350,
+          200
+        ]
+      ],
+      "direction": "horizontal"
+    },
+    "labels": [
+      "person",
+      "forklift"
+    ]
+  }
+}

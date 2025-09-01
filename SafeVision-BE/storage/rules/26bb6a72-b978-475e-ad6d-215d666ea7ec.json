@@ -1,0 +1,37 @@
+{
+  "id": "26bb6a72-b978-475e-ad6d-215d666ea7ec",
+  "name": "위험 구역 진입",
+  "type": "zone_entry",
+  "enabled": false,
+  "severity": "high",
+  "description": "사람이나 차량이 위험 구역에 진입하여 지정된 시간 동안 체류하는 경우",
+  "params": {
+    "zone": {
+      "id": "zone_1",
+      "name": "작업 구역 A",
+      "polygon": [
+        [
+          100,
+          100
+        ],
+        [
+          300,
+          100
+        ],
+        [
+          300,
+          300
+        ],
+        [
+          100,
+          300
+        ]
+      ],
+      "danger_level": "high"
+    },
+    "duration": 2,
+    "labels": [
+      "person"
+    ]
+  }
+}

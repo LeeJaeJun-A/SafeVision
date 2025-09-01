@@ -1,0 +1,15 @@
+{
+  "id": "9129344f-2ae1-4ffb-92fb-c067a568e6b2",
+  "name": "낙상 감지",
+  "type": "fall_detection",
+  "enabled": true,
+  "severity": "critical",
+  "description": "프레임 간격 내에서 y좌표 급격한 변화를 감지하여 낙상 알림",
+  "params": {
+    "min_fall_pixels": 70,
+    "max_frame_gap": 150,
+    "labels": [
+      "person"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+  "name": "구역 내 속도 제한",
+  "type": "speed_limit_zone",
+  "enabled": false,
+  "severity": "medium",
+  "description": "특정 구역 내에서 차량의 속도가 제한 속도를 초과하는 경우",
+  "params": {
+    "zone": {
+      "id": "zone_3",
+      "name": "저속 구역",
+      "polygon": [
+        [
+          700,
+          100
+        ],
+        [
+          900,
+          100
+        ],
+        [
+          900,
+          300
+        ],
+        [
+          700,
+          300
+        ]
+      ],
+      "danger_level": "medium"
+    },
+    "max_speed": 3.0,
+    "labels": [
+      "forklift",
+      "car",
+      "truck"
+    ]
+  }
+}

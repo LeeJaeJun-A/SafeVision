@@ -1,0 +1,15 @@
+{
+  "id": "bed332b0-a41a-40e7-82f9-b3081d804b9d",
+  "name": "충돌 위험",
+  "type": "collision_risk",
+  "enabled": true,
+  "severity": "critical",
+  "description": "움직이는 object와 사람이 가까워지거나, 가까워지고 있는데 사람이 갑자기 사라지는 경우",
+  "params": {
+    "min_distance": 50,
+    "max_frame_gap": 10,
+    "person_labels": [
+      "person"
+    ]
+  }
+}
